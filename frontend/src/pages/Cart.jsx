@@ -68,7 +68,7 @@ const Cart = () => {
     }
   };
   return (
-    <div className="h-screen bg-zinc-900 px-12 py-8">
+    <div className="min-h-screen h-auto bg-zinc-900 px-12 py-8">
       {!Cart && <Loader />}
       {Cart && Cart.length === 0 && (
         <div className="h-screen">
