@@ -89,6 +89,9 @@ const Login = () => {
               <u>Sign Up</u>
             </Link>
           </p>
+          <p className="flex mt-4 items-center justify-center text-zinc-500 font-semibold">
+            Demo login & pass - user123
+          </p>
         </div>
       </div>
     </div>
